@@ -1,0 +1,53 @@
+.vs/
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+obj/
+*.user
+*.suo
+*.sln.docstates
+binaries/
+artifacts/ 
+.vs/
+bin/
+obj/
+launchSettings.json
+.vscode
+
+Store/.DS_Store
+.DS_Store
+StoreApp/.DS_Store 
+
+# SQLite veritabanı dosyalarını ignore et
+*.db
+*.db-shm
+*.db-wal
+
+ Store/StoreApp/Database/ProductDb.db
+ Store/StoreApp/Database/ProductDb.db-shm
+ Store/StoreApp/Database/ProductDb.db-wal
+
+
+# libman klasörü
+lib
+
+# libman klasöründeki tüm .log dosyaları
+lib/*.log
+
+# libman klasörü altındaki tüm .tmp uzantılı dosyalar
+lib/**/*.tmp
+
+Store/StoreApp/Migrations 
+
+# Entity Framework Core migrations klasörü
+/Migrations/
+
+Store/StoreApp/Migrations
+
+
+
+
+
+
+
+
